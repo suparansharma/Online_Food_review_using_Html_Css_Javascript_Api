@@ -13,7 +13,7 @@ const showAllSong= songs =>{
     for (let i = 0; i < songs.length; i++) {
         const song = songs[i];
         const containerSongs = document.getElementById("containerSongs");
-        // containerSongs.innerText = "";
+        containerSongs.innerHTML = '    ';
         const containerSongDetails = document.createElement('div');
          containerSongDetails.innerHTML = `
         
